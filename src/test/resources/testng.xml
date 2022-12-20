@@ -1,0 +1,8 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1"   >
+        <packages>
+            <package name="services.jsonplaceholder.posts" />
+            <package name="services.jsonplaceholder.users" />
+        </packages>
+    </test>
+</suite>
