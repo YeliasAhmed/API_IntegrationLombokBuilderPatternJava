@@ -10,24 +10,23 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
+@Builder
 @Getter
 @Setter
-@Builder
 @Accessors(chain = true)
-public class GetUserByUsernameReq extends AbstractHttpSpecification {
+public class DeleteUserReq extends AbstractHttpSpecification {
 
     @SerializedName("username")
     @Expose
     private String username;
 
-
     @Override
     protected HttpMethod getHttpMethod() {
-        return HttpMethod.GET;
+        return HttpMethod.DELETE;
     }
 
     @Override
     protected String getEndpointUrl() {
-        return Properties.JSONPLACEHOLDER_API + "/user/" +username;
+        return Properties.JSONPLACEHOLDER_API + "/user/" + username;
     }
 }

@@ -1,4 +1,4 @@
-package services.posts;
+package services.store;
 
 import base.AbstractHttpSpecification;
 import base.Properties;

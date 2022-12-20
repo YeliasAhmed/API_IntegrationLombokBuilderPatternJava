@@ -1,5 +1,6 @@
 package services.users;
 
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import lombok.Builder;
@@ -11,8 +12,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Builder
 @Accessors(chain = true)
-public class GetLoginResp {
-
+public class PutUpdateUserResp {
     @SerializedName("code")
     @Expose
     private Integer code;

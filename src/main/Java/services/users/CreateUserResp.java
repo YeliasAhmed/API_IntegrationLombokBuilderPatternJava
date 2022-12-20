@@ -21,7 +21,7 @@ public class CreateUserResp {
     private String type;
     @SerializedName("message")
     @Expose
-    private int message;
+    private String message;
 
 
 }

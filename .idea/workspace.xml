@@ -5,32 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b51d2cb-4e12-45f2-97c1-e8b3cc94f521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/AbstractHttpSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/GatewayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/HttpDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/HttpHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/base/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/controllers/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/generic/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/posts/CreateUserPostReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/posts/UpdateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/CreateUser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/controllers/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/controllers/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/helpers/AssertHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/helpers/MandatoryHeaders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/DeleteUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/DeleteUserResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameNotFoundResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/PutUpdateUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/services/users/PutUpdateUserResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/users/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/users/DeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/users/GetLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/users/GetUserByUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/users/PutUpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/base/GatewayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/base/GatewayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/base/HttpDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/base/HttpDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/base/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/base/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/controllers/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/controllers/StoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/generic/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/posts/CreateUserPostReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/store/CreateUserPostReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/posts/UpdateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/store/UpdateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/CreateUserResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetLoginResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/services/users/GetUserByUsernameResp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/AllProjects/IntellijProject/Unirest_Bulder_Pattern_JSONPlaceholder-master",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -83,6 +87,107 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetUserByUsername.test_get_user_by_username_user_not_found">
+    <configuration name="DeleteUser.test_delete_user" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PojoClassWithLombokBuilderPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.DeleteUser" />
+      <option name="METHOD_NAME" value="test_delete_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLogin.test_get_login_user" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PojoClassWithLombokBuilderPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.GetLogin" />
+      <option name="METHOD_NAME" value="test_get_login_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserByUsername.test_get_user_by_username" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PojoClassWithLombokBuilderPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.GetUserByUsername" />
+      <option name="METHOD_NAME" value="test_get_user_by_username" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserByUsername.test_get_user_by_username_user_not_found" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PojoClassWithLombokBuilderPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.GetUserByUsername" />
+      <option name="METHOD_NAME" value="test_get_user_by_username_user_not_found" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutUpdateUser.test_put_update_user" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PojoClassWithLombokBuilderPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.PutUpdateUser" />
+      <option name="METHOD_NAME" value="test_put_update_user" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GetUserByUsername.test_get_user_by_username_user_not_found" />
+        <item itemvalue="TestNG.GetUserByUsername.test_get_user_by_username" />
+        <item itemvalue="TestNG.PutUpdateUser.test_put_update_user" />
+        <item itemvalue="TestNG.DeleteUser.test_delete_user" />
+        <item itemvalue="TestNG.GetLogin.test_get_login_user" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

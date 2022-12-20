@@ -1,4 +1,4 @@
-package services.posts;
+package services.store;
 
 import lombok.Builder;
 import lombok.Getter;

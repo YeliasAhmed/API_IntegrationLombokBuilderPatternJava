@@ -11,7 +11,7 @@ import lombok.Setter;
 public class GatewayRequest {
 
     @Getter(AccessLevel.PUBLIC)
-    private final HttpHeader header = new HttpHeader();
+    private  HttpHeader header = new HttpHeader();
 
     @Setter
     @Getter(AccessLevel.PROTECTED)
@@ -36,13 +36,13 @@ public class GatewayRequest {
     public GatewayRequest forService(){return this;}
 
     public GatewayRequest usingHeaders(final HttpHeader httpHeader){
-        this.headers = httpHeader;
+        this.header = httpHeader;
         return this;
     }
 
-    public PostsService postsService() {
-        return new PostsService(this);
-    }
+//    public PostsService postsService() {
+//        return new PostsService(this);
+//    }
 
     public UserService userService() {
         return new UserService(this);

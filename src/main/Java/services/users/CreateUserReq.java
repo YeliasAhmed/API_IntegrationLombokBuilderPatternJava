@@ -45,5 +45,5 @@ public class CreateUserReq extends AbstractHttpSpecification{
       protected HttpMethod getHttpMethod(){return HttpMethod.POST;}
 
 
-      protected String getEndpointUrl(){ return Properties.JSONPLACEHOLDER_API + "/users";}
+      protected String getEndpointUrl(){ return Properties.JSONPLACEHOLDER_API + "/user";}
 }

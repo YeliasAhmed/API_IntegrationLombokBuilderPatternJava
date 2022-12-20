@@ -7,11 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
+@Builder
 @Getter
 @Setter
-@Builder
 @Accessors(chain = true)
-public class GetLoginResp {
+public class DeleteUserResp {
 
     @SerializedName("code")
     @Expose
@@ -22,4 +22,5 @@ public class GetLoginResp {
     @SerializedName("message")
     @Expose
     private String message;
+
 }
