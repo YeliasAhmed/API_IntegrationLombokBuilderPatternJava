@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out the source code from Git
-                checkout scm
+                
+                 sh 'checkout scm'
             }
         }
 
@@ -27,6 +28,7 @@ pipeline {
             steps {
                 // Deploy your application if applicable
                 // This can vary depending on your project
+                 sh 'Deploy'
             }
         }
     }
