@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Check out the source code from Git
                 
-                 sh 'checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/YeliasAhmed/LombokBuilderPatternJavaUnirestLibrary.git']])'
+                 git 'https://github.com/YeliasAhmed/LombokBuilderPatternJavaUnirestLibrary.git'
             }
         }
 
